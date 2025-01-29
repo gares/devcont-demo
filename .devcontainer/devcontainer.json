@@ -1,5 +1,5 @@
-{
-  "build": { "dockerfile": "Dockerfile" },
+{ "image": "ybertot/course2025",
+//  "build": { "dockerfile": "Dockerfile" },
   "customizations": {
     "vscode": {
       "extensions": ["maximedenes.vscoq@2.2.3"]
