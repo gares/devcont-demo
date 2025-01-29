@@ -1,12 +1,22 @@
 # Demo of a dev container for Rocq
 
-Set up code (only the first time)
+## Set up docker (only the first time)
+
+On Ubuntu I had to
+
+```
+sudo apt-get install docker.io docker-buildx
+sudo adduser tassi docker # my user
+sudo reboot # or logout and login again
+```
+
+## Set up code (only the first time)
 
 ```
 code --install-extension ms-vscode-remote.remote-containers
 ```
 
-Clone and open the repository
+## Clone and open the repository
 
 ```
 git clone https://github.com/gares/devcont-demo.git
@@ -18,14 +28,7 @@ F1 and then `Reopen in Container`.
 
 The image will be built on the fly after downloading the base image (about 4G).
 The right version of vscoq will be installed in code (this may take some time,
-wait until the vscoq panel shows up). On Ubuntu I had to
-
-```
-sudo apt-get install docker.io docker-buildx
-sudo adduser tassi docker # my user
-sudo reboot # or logout and login again
-```
-
+wait until the vscoq panel shows up). 
 
 Stepping through a.v should work.
 
