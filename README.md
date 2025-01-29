@@ -14,9 +14,12 @@ code https://github.com/gares/devcont-demo
 ```
 
 Now click on the `Reopen in Container` popup, or type
-F1 and then `Reopen in Container`. The image will be built on the fly after downloading the base image (about 4G).
+F1 and then `Reopen in Container`.
+The image will be built on the fly after downloading the base image (about 4G).
+The right version of vscoq will be installed in code (this may take some time,
+wait until the vscoq panel shows up).
 
-Stepping through a.v should work
+Stepping through a.v should work.
 
 # Uploading the image to dockerhub (TODO, I have not tried)
 
