@@ -13,7 +13,7 @@ git clone https://github.com/gares/devcont-demo.git
 code https://github.com/gares/devcont-demo
 ```
 
-Now clock on the `Reopen in Container` popup, or type
+Now click on the `Reopen in Container` popup, or type
 F1 and then `Reopen in Container`. The image will be built on the fly after downloading the base image (about 4G).
 
 Stepping through a.v should work
