@@ -2,7 +2,7 @@
   "build": { "dockerfile": "Dockerfile" },
   "customizations": {
     "vscode": {
-      "extensions": ["maximedenes.vscoq"]
+      "extensions": ["maximedenes.vscoq@2.2.3"]
     }
   },
 }
