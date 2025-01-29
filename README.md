@@ -15,9 +15,17 @@ code https://github.com/gares/devcont-demo
 
 Now click on the `Reopen in Container` popup, or type
 F1 and then `Reopen in Container`.
+
 The image will be built on the fly after downloading the base image (about 4G).
 The right version of vscoq will be installed in code (this may take some time,
-wait until the vscoq panel shows up).
+wait until the vscoq panel shows up). On Ubuntu I had to
+
+```
+sudo apt-get install docker.io docker-buildx
+sudo adduser tassi docker # my user
+sudo reboot # or logout and login again
+```
+
 
 Stepping through a.v should work.
 
@@ -37,4 +45,5 @@ after (or in place of)
 
 in .devcontainer/devcontainer.json once the image automatically
 built is tagged via `docker tag ... ` and published via `docker push ...`.
+
 
